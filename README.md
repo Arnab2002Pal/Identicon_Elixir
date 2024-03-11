@@ -1,21 +1,33 @@
-# Identicon
+# Elixir Project
 
-**TODO: Add description**
+This is a simple Elixir project.
+
+## Prerequisites
+
+Before running this project, ensure you have the following installed:
+
+- Elixir: https://elixir-lang.org/install.html
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `identicon` to your list of dependencies in `mix.exs`:
+1. Clone the repository:
 
-```elixir
-def deps do
-  [
-    {:identicon, "~> 0.1.0"}
-  ]
-end
-```
+git clone <repository_url>
+cd <repository_name>
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/identicon>.
 
+2. Install dependencies:
+
+mix deps.get
+
+
+## Running the Project
+
+To run the project, execute the following command:
+
+iex -S mix
+
+## In terminal,
+Execute the following command:
+
+Identicon.main("name")
